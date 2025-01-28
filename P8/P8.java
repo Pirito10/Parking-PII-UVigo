@@ -1,5 +1,3 @@
-package P8;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -26,27 +24,27 @@ public class P8 {
 
         // Se leen y se almacenan los coches a partir del fichero con los coches de la
         // ciudad
-        cdb.readCityCarsFile("P8/" + args[3]);
+        cdb.readCityCarsFile(args[3]);
 
         // Se crea el parking a partir del fichero del parking
-        miParking = new Parking("P8/" + args[0]);
+        miParking = new Parking(args[0]);
 
         // Se actualiza el parking a partir del fichero de entradas/salidas
-        processIO("P8/" + args[1]);
+        processIO(args[1]);
 
         // Se guarda el parking en el fichero indicado por el tercer argumento de
         // entrada
-        miParking.saveParking("P8/" + args[2]);
+        miParking.saveParking(args[2]);
 
         // Se ordena la colección de coches por su matrícula
         cdb.sortByBatteryChargeAndPlate();
 
         // Se guarda la colección de coches en el fichero indicado por el quinto
         // argumento de entrada
-        cdb.saveCarsToFile("P8/" + args[4]);
+        cdb.saveCarsToFile(args[4]);
 
         // Se crea un objeto File para guardar el mapa del parking
-        File archivo = new File("P8/" + args[5]);
+        File archivo = new File(args[5]);
 
         // Se crea el archivo
         PrintWriter fichero = new PrintWriter(archivo);
@@ -57,7 +55,7 @@ public class P8 {
         // Se cierra el PrintWriter
         fichero.close();
 
-        miParking.savePayments("P8/" + args[6]);
+        miParking.savePayments(args[6]);
     }
 
     // Método que actualiza el parking según un fichero de entradas/salidas

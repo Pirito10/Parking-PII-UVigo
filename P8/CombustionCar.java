@@ -1,5 +1,3 @@
-package P8;
-
 public class CombustionCar extends Car {
 
     // Atributos de instancia

@@ -1,5 +1,3 @@
-package P8;
-
 import java.util.Comparator;
 
 public class CarSpaceComparatorByEntryTimeAndCoordinate implements Comparator<CarSpace> {

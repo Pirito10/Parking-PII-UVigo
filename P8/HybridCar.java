@@ -1,5 +1,3 @@
-package P8;
-
 public class HybridCar extends Car {
 
     // Atributos de instancia

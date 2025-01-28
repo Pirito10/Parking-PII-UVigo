@@ -1,5 +1,3 @@
-package P8;
-
 public class Visit implements Comparable<Visit> {
 
     // Atributos de instancia

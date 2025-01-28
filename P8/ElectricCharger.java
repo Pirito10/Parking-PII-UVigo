@@ -1,5 +1,3 @@
-package P8;
-
 public class ElectricCharger {
 
     // Atributos de instancia

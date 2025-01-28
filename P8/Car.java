@@ -1,5 +1,3 @@
-package P8;
-
 public abstract class Car implements Comparable<Car> {
 
     // Atributos de instancia

@@ -1,5 +1,3 @@
-package P8;
-
 public class Coordinate implements Comparable<Coordinate> {
 
     // Atributos de instancia

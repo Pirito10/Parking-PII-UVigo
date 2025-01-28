@@ -1,5 +1,3 @@
-package P8;
-
 public class ElectricCar extends Car {
 
     // Atributos de instancia

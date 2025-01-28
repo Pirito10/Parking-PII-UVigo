@@ -1,5 +1,3 @@
-package P8;
-
 public class CarSpace implements Comparable<CarSpace> {
 
     // Atributos de instancia
