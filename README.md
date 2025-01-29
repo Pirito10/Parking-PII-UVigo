@@ -2,7 +2,7 @@
 Parking is a **Parking Management System** developed as part of the course "[Programación II](https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/index.php?centre=305&ensenyament=V05G301V01&assignatura=V05G301V01110&any_academic=2021_22)" in the Telecommunications Engineering Degree at the Universidad de Vigo (2021 - 2022).
 
 ## About The Project
-This project simulates the management system for a parking, where cars are classified depending on their type and charged based on the service used. The system incorporates concepts of object-oriented programming such as inheritance, polymorphism, and encapsulation, which were key learning objectives of the course.
+This project simulates a management system for a parking, where cars are classified depending on their type and charged based on the service used. The system incorporates concepts of object-oriented programming such as inheritance, polymorphism, and encapsulation, which were key learning objectives of the course.
 
 The project features:
 - A database system where cars are stored.
@@ -43,8 +43,8 @@ java -cp bin P8 test/parking.txt test/entradasSalidas.txt parkingActualizado.txt
 
 ## About The Code
 
-I've lost all the documentation related to this project, so the only way to know how to compile and run the program properly is by inspecting the code.
+The original specification document for this project was lost, so the only way to properly understand the system and how it works is by inspecting the code directly.
 
-Even though, the project should be complete, being version [**P8**](P8) the latest one.
+However, the final version of the project is located in the [**P8**](P8) directory.
 
-In the [**test**](test) directory are some files that should be enough to run the latest version of the program.
+Previous versions, found in other directories, may have different or fewer features. Therefore, the provided [**test**](test) files may not be compatible with these older versions.
