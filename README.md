@@ -45,6 +45,6 @@ java -cp bin P8 test/parking.txt test/entradasSalidas.txt parkingActualizado.txt
 
 The original specification document for this project was lost, so the only way to properly understand the system and how it works is by inspecting the code directly.
 
-However, the final version of the project is located in the [**P8**](P8) directory.
+However, the final version of the project is located in the [`P8`](P8) directory.
 
-Previous versions, found in other directories, may have different or fewer features. Therefore, the provided [**test**](test) files may not be compatible with these older versions.
+Previous versions, found in other directories, may have different or fewer features. Therefore, the provided [`test`](test) files may not be compatible with these older versions.
