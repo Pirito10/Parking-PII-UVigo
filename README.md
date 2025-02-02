@@ -11,7 +11,7 @@ The project features:
 
 ## How To Run
 ### Compilation
-Make sure you have a Java JDK installed on your system. Then compile all Java classes and generate the `.class` files with:
+Make sure you have a [Java JDK](https://www.oracle.com/java/technologies/downloads/) installed on your system. Then compile all Java classes and generate the `.class` files with:
 
 ```bash
 javac -d bin P8/*.java
