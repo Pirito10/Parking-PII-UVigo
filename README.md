@@ -28,13 +28,13 @@ java -cp bin P8 <f_parking> <f_entradas_salidas> <f_parking_actualizado> <f_coch
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `f_parking` | Specifies the file containing parking data | `parking.txt` |
-| `f_entradas_salidas` | Specifies the file containing cars entry/exit data | `entradasSalidas.txt` |
-| `f_parking_actualizado` | Specifies the file where the updated parking data will be written | `parkingActualizado.txt` |
-| `f_coches_ciudad` | Specifies the file containing car data | `cityCars.txt` |
-| `f_lista_coches` | Specifies the file where the updated cars data will be written | `cityCarsActualizado.txt` |
-| `f_dibujo_parking` | Specifies the file where a drawing of the parking will be written | `dibujoParking.txt` |
-| `f_ingresos` | Specifies the file where the income data will be written | `ingresos.txt` |
+| `f_parking` | File containing parking data | `parking.txt` |
+| `f_entradas_salidas` | File containing cars entry/exit data | `entradasSalidas.txt` |
+| `f_parking_actualizado` | File where the updated parking data will be written | `parkingActualizado.txt` |
+| `f_coches_ciudad` | File containing cars data | `cityCars.txt` |
+| `f_lista_coches` | File where the updated cars data will be written | `cityCarsActualizado.txt` |
+| `f_dibujo_parking` | File where a drawing of the parking will be written | `dibujoParking.txt` |
+| `f_ingresos` | File where the income data will be written | `ingresos.txt` |
 
 #### Example
 ```bash
